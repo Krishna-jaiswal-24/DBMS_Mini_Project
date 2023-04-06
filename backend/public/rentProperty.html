@@ -23,7 +23,7 @@
             </ul>
         </div>
     </header>
-®
+    ®
     <div class="forms">
         <form>
 
@@ -33,9 +33,13 @@
 
 
 
-                <label for="property_type">Property Type:</label>
-                <input type="text" id="property_type" name="property_type" required>
-
+                <label for="property_type">Property Type</label>
+                <select name="ptype" id="ptype">
+                    <option value="">Select Property Type</option>
+                    <option value="Flat">Flat</option>
+                    <option value="House">Bungalow</option>
+                    <option value="Apartment">Penthouse</option>
+                </select>
                 <label for="property_name">Rooms</label>
                 <input type="text" id="property_rooms" name="property_rooms" required>
 
@@ -46,7 +50,7 @@
                 <input type="text" id="property_address" name="property_address" required>
 
                 <label for="owner_name">Owner Number (if known)</label>
-                <input type="text" id="owner_name" name="owner_name" >
+                <input type="text" id="owner_name" name="owner_name">
                 <label for="owner_name">Owner Name:</label>
                 <input type="text" id="owner_name" name="owner_name" required>
 

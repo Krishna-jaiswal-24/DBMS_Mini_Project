@@ -28,20 +28,47 @@
     </header>
     <div class="staff-registration">
         <form action="">
-            <label for="client_number">Client Number (if known)</label>
-            <input type="text" id="client_number">
+            <!-- <label for="client_number">Client Number (if known)</label>
+            <input type="text" id="client_number"> -->
 
             <label for="client_name">Full Name</label>
             <input type="text" id="client_name">
-
-            <label for="branch_number">Branch Number</label>
+            <!-- 
+            <label for="branch_name">Branch Name</label>
             <input type="text" id="branch_number">
+             -->
 
-            <label for="branch_address">Branch Address</label>
+            <label for="property_type">Property Type
+            </label>
+            <select name="ptype" id="ptype">
+                <option value="">Select Property Type</option>
+                <option value="Flat">Flat</option>
+                <option value="House">Bungalow</option>
+                <option value="Apartment">Penthouse</option>
+            </select>
+
+
+            <label for="property_rent">Max Rent</label>
+            <input type="text" id="property_rent">
+            <label for="branch_name">Branch Name</label>
+            <select name="branch_name" id="ptype">
+                <option value="">Select closest branch</option>
+                <option value="1">London</option>
+                <option value="2">Manchester</option>
+                <option value="3">Birmingham</option>
+                <option value="4">Bristol</option>
+                <option value="5">Glasgow</option>
+                <option value="6">Liverpool</option>
+                <option value="7">Leeds</option>
+                <option value="8">Glasgow</option>
+                <option value="9">Newcastle</option>
+                <option value="10">Nottingham</option>
+            </select>
+            <!-- <label for="branch_address">Branch Address</label>
             <input type="text" name="" id="branch_address">
 
             <label for="registered_by">Registered by</label>
-            <input type="text"  id="registered_by">
+            <input type="text"  id="registered_by"> -->
 
             <label for="date_of_registration">Date of Registration</label>
             <input type="date" id="date_of_registration">
